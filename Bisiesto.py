@@ -8,7 +8,7 @@ os.system("clear")
 year=input("Escriba un año cualquier:  ")
 
 #Si el año es multiplo 4 y no de 100 == No es bisiesto
-if (year % 100 == 0):
+if (year % 100 != 0):
     print "El año",year,"No es bisiesto"
 
 #Si el año es multiplo de 4 y de 100 ==Es bisiesto
