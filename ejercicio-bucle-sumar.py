@@ -1,16 +1,19 @@
-#coding: utf-8
-#shah sawar
-#05/03/2018
+"""
+coding:utf-8
+shah sawar
+05/03/2018
+"""
+#Inicializaciones
+salir="N"
+numero=1
 
-import os
-os.system("clear")
-
-print "\n"
-print("          Sumar desde el número 1 hasta el 5")
-print "\n"
-suma = 0
-for i in [1, 2, 3, 4, 5]:
-    suma = suma + i
-print "                  1+2+3+4+5=",suma
-print "\n"
-
+while (salir=="N"):
+       #Hago cosas
+        print numero
+       #Incremento
+        numero=numero + 1
+       #Activo indicador de salida si toca
+        if (numero>5):#Condicion salida
+		    print 1+2+3+4+5
+		     
+		    salir="S"
