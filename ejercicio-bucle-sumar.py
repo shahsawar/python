@@ -6,14 +6,20 @@ shah sawar
 #Inicializaciones
 salir="N"
 numero=1
-
+maximo=10
+suma=0
 while (salir=="N"):
        #Hago cosas
-        print numero
+        print numero,
+        if (numero<=maximo -1):
+            print "+",
+        
+        suma=suma+numero
+        
        #Incremento
         numero=numero + 1
        #Activo indicador de salida si toca
-        if (numero>5):#Condicion salida
-		    print 1+2+3+4+5
-		     
-		    salir="S"
+        if (numero>maximo):#Condicion salida
+            salir="S"
+print "=",suma
+
